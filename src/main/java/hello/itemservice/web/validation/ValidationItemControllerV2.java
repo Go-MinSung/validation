@@ -173,6 +173,7 @@ public class ValidationItemControllerV2 {
             if(resultPrice < 10000){
                 bindingResult.reject("totalPriceMin", new Object[]{10000}, null);
             }
+
         }
 
         //검증에 실패하면 다시 입력 폼으로
